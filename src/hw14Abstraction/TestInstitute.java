@@ -29,20 +29,34 @@ public class TestInstitute {
 		columbiaUniversity.vocationalInfo();
 		columbiaUniversity.teacher();
 		columbiaUniversity.surgeryRoom();
-	
-		System.out.println("\n------This is University------\n");
-		//University university = new University();
-		
-		/*
-		 * University cannot be instantiated because we can't instantiate an interface.
-		 */
-		
-		System.out.println("\n------This is MedicalSchool------\n");
-		//MedicalSchool medicalSchool = new MedicalSchool();
 
-		/*
-		 * University cannot be instantiated because we can't instantiate an Abstract class.
-		 */
+		System.out.println("\n--------------University----------------\n");
+		University university = new ColumbiaUniversity();
+		university.languageClub();
+		university.cafeteria();
+		university.classSize();
+		university.commonRoom();
+		university.emergencyRoom();
+		university.gymnasium();
+		university.laboratory();
+		university.playGround();
+		university.surgeryRoom();
+		university.teacher();
+		University.library();
+
+		System.out.println("\n--------------MedicalSchool----------------\n");
+		MedicalSchool medicalSchool = new ColumbiaUniversity();
+		medicalSchool.anatomyLab();
+		medicalSchool.biochemistryLab();
+		medicalSchool.anthropology();
+		medicalSchool.caring();
+		medicalSchool.aeronauticalInfo();
+		medicalSchool.computerLab();
+		medicalSchool.hygiene();
+		medicalSchool.lawInfo();
+		medicalSchool.maths();
+		medicalSchool.mechanicalLab();
+
 	}
 
 }
